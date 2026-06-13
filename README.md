@@ -81,3 +81,9 @@ Next.js by Vercel
 Convex Backend
 Stack Auth
 OpenAI / Groq / OpenRouter APIs
+
+Getting Started First, run the development server: 
+# npm run dev 
+# or yarn dev 
+# or pnpm dev
+# or bun dev Open http://localhost:3000 with your browser to see the resu

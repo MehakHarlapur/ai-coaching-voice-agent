@@ -1,89 +1,113 @@
-🚀 AI Coaching Voice Agent
+# 🚀 AI Coaching Voice Agent
 
-An intelligent AI-powered coaching voice assistant built with Next.js, enabling real-time conversational interaction, voice-based guidance, and smart AI-driven responses.
+An intelligent AI-powered coaching voice assistant built with **Next.js**, enabling real-time conversational interaction, voice-based guidance, and smart AI-driven responses.
 
-✨ Features
-🎙️ Real-time voice-based AI interaction
-🤖 Intelligent coaching assistant powered by LLM APIs
-🔐 Secure authentication system (Stack Auth integration)
-💬 Conversational AI chat + voice experience
-📊 Dashboard for user interaction history
-☁️ Cloud-based backend with Convex
-⚡ Fast performance using Next.js 16 + Turbopack
-🌐 Fully responsive UI for all devices
+---
 
+## ✨ Features
 
-🛠️ Tech Stack
-Frontend: Next.js, React, Tailwind CSS
-Backend: Convex, Server Actions
-Auth: Stack Authentication
-AI Services: OpenRouter / Groq / ElevenLabs / AssemblyAI
-Deployment: Vercel
+- 🎙️ Real-time voice-based AI interaction  
+- 🤖 Intelligent coaching assistant powered by LLM APIs  
+- 🔐 Secure authentication system (Stack Auth integration)  
+- 💬 Conversational AI chat + voice experience  
+- 📊 Dashboard for user interaction history  
+- ☁️ Cloud-based backend with Convex  
+- ⚡ Fast performance using Next.js 16 + Turbopack  
+- 🌐 Fully responsive UI for all devices  
 
-📦 Getting Started
-1. Clone the repository
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:** Next.js, React, Tailwind CSS  
+**Backend:** Convex, Server Actions  
+**Auth:** Stack Authentication  
+**AI Services:** OpenRouter / Groq / ElevenLabs / AssemblyAI  
+**Deployment:** Vercel  
+
+---
+
+## 📦 Getting Started
+
+ 1. Clone the repository
+```bash
 git clone https://github.com/your-username/ai-coaching-voice-agent.git
 cd ai-coaching-voice-agent
 
-3. Install dependencies
+
+2. Install dependencies
 npm install
 # or
 pnpm install
 
 3. Set up environment variables
-Create a .env.local file and add:
 NEXT_PUBLIC_STACK_PROJECT_ID=
 NEXT_PUBLIC_STACK_PUBLISHABLE_CLIENT_KEY=
 STACK_SECRET_SERVER_KEY=
+
 CONVEX_DEPLOYMENT=
 NEXT_PUBLIC_CONVEX_URL=
+
 NEXT_PUBLIC_AI_OPENROUTER=
 GROQ_API_KEY=
 ASSEMBLY_API_KEY=
+
 NEXT_PUBLIC_ELEVENLAB_API_KEY=
 NEXT_PUBLIC_AWS_ACCESS_KEY_ID=
 NEXT_PUBLIC_AWS_SECRET_KEY=
 
-5. Run the development server
+4. Run development server
 npm run dev
-Open 👉 http://localhost:3000
 
-🚀 Deployment
-The easiest way to deploy is using Vercel:
+## 🚀 Deployment
 Push project to GitHub
-Import repository on Vercel
+Import repo on Vercel
 Add environment variables
 Click Deploy
 
 📁 Project Structure
-app/            → Pages and routes
-components/     → Reusable UI components
-lib/            → Helper functions & integrations
-convex/         → Backend functions
-public/         → Static assets
+app/          → Pages and routes
+components/   → UI components
+lib/          → Helpers & utilities
+convex/       → Backend functions
+public/       → Static assets
 
 🎯 Future Improvements
 Real-time AI coaching analytics
 Multi-language voice support
-Advanced user dashboard insights
+Advanced dashboard insights
 Mobile app integration
-Personalized AI coaching memory
+Personalized AI memory
 
 🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss improvements.
+
+Pull requests are welcome. For major changes, open an issue first.
 
 📄 License
-This project is licensed for educational and personal use.
+
+For educational and personal use.
 
 ⭐ Acknowledgements
+
 Built using:
+
 Next.js by Vercel
 Convex Backend
 Stack Auth
 OpenAI / Groq / OpenRouter APIs
 
-Getting Started First, run the development server: 
-npm run dev 
-or yarn dev 
-or pnpm dev
-or bun dev Open http://localhost:3000 with your browser to see the resu
+
+---
+
+# 🚀 What you should do now
+
+### Step 1:
+Replace README.md completely
+
+### Step 2:
+Run:
+
+```bash
+git add README.md
+git commit -m "fix README formatting"
+git push origin main

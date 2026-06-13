@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🚀 AI Coaching Voice Agent
 
-## Getting Started
+An intelligent AI-powered coaching voice assistant built with Next.js, enabling real-time conversational interaction, voice-based guidance, and smart AI-driven responses.
 
-First, run the development server:
+✨ Features
+🎙️ Real-time voice-based AI interaction
+🤖 Intelligent coaching assistant powered by LLM APIs
+🔐 Secure authentication system (Stack Auth integration)
+💬 Conversational AI chat + voice experience
+📊 Dashboard for user interaction history
+☁️ Cloud-based backend with Convex
+⚡ Fast performance using Next.js 16 + Turbopack
+🌐 Fully responsive UI for all devices
 
-```bash
+
+🛠️ Tech Stack
+Frontend: Next.js, React, Tailwind CSS
+Backend: Convex, Server Actions
+Auth: Stack Authentication
+AI Services: OpenRouter / Groq / ElevenLabs / AssemblyAI
+Deployment: Vercel
+
+📦 Getting Started
+1. Clone the repository
+git clone https://github.com/your-username/ai-coaching-voice-agent.git
+cd ai-coaching-voice-agent
+
+3. Install dependencies
+npm install
+# or
+pnpm install
+
+3. Set up environment variables
+Create a .env.local file and add:
+NEXT_PUBLIC_STACK_PROJECT_ID=
+NEXT_PUBLIC_STACK_PUBLISHABLE_CLIENT_KEY=
+STACK_SECRET_SERVER_KEY=
+CONVEX_DEPLOYMENT=
+NEXT_PUBLIC_CONVEX_URL=
+NEXT_PUBLIC_AI_OPENROUTER=
+GROQ_API_KEY=
+ASSEMBLY_API_KEY=
+NEXT_PUBLIC_ELEVENLAB_API_KEY=
+NEXT_PUBLIC_AWS_ACCESS_KEY_ID=
+NEXT_PUBLIC_AWS_SECRET_KEY=
+
+5. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open 👉 http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🚀 Deployment
+The easiest way to deploy is using Vercel:
+Push project to GitHub
+Import repository on Vercel
+Add environment variables
+Click Deploy
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+📁 Project Structure
+app/            → Pages and routes
+components/     → Reusable UI components
+lib/            → Helper functions & integrations
+convex/         → Backend functions
+public/         → Static assets
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🎯 Future Improvements
+Real-time AI coaching analytics
+Multi-language voice support
+Advanced user dashboard insights
+Mobile app integration
+Personalized AI coaching memory
 
-## Learn More
+🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss improvements.
 
-To learn more about Next.js, take a look at the following resources:
+📄 License
+This project is licensed for educational and personal use.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⭐ Acknowledgements
+Built using:
+Next.js by Vercel
+Convex Backend
+Stack Auth
+OpenAI / Groq / OpenRouter APIs
